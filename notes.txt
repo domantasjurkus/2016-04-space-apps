@@ -1,0 +1,11 @@
+Twilio account:
+niker@inbox.lt
+a***s
+
+Twilio number:
++441572460377
+
+Ngrok:
+http://bfebca81.ngrok.io/
+
+IBM guy's number:
