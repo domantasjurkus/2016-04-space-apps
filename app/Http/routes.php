@@ -130,7 +130,7 @@ $app->get('/doomsday/{temp}', function($temp) use ($app) {
         if ($user->informed) continue;
 
         /** Send SMS */
-        $message = "DOOMSDAY! Global temperatures have risen to ".$temp." Celcius. Human extinction imminent.";
+        $message = " \n\nDOOMSDAY!\n\nGlobal temperatures have risen to ".$temp." Celcius. Human extinction imminent.";
         try {
             sendSMS($user->number, $message);
 
@@ -173,7 +173,7 @@ function sendTestimonies($recipient_id) {
         /** Get the sender's name and message */
         $sender = User::query()->where("id", $testimony->sender_id)->first();
         $sender_name = $sender->name;
-        $message = "Final message from ".$sender_name. ": ".$testimony["message"];
+        $message = " \n\nFinal message from ".$sender_name. ":\n\n".$testimony["message"];
 
         /** Send SMS */
         try {
@@ -190,13 +190,13 @@ function sendTestimonies($recipient_id) {
 
 function sendSMS($number, $message) {
 
-    $account_sid = 'AC9568cb173d658bf5b8240a97556ac60a';
-    $auth_token = '50e3325230062dd59f682828926b8ac1';
+    $account_sid = 'ACdf86a41dc84e4bb3eff4199a5b0280f5';
+    $auth_token = '3bb60dfd6f75f26fcb6591c1c3d71101';
     $client = new Services_Twilio($account_sid, $auth_token);
 
     $client->account->messages->create(array(
         'To' => $number,
-        'From' => "+441572460377",
+        'From' => "+441423740103",
         'Body' => $message,
     ));
 

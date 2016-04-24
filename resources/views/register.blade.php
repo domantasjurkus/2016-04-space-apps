@@ -24,7 +24,7 @@
 	</form>
 
 	<br>
-	<label for="task" class="control-label">OR add additional testimonies from a registered number</label>
+	<label for="task" class="control-label">OR add additional testimonies for a registered number</label>
 	<br>
 
 	<form action="<?php echo "http://".$_SERVER['HTTP_HOST']."/update" ?>" method="POST" class="form-inline">
