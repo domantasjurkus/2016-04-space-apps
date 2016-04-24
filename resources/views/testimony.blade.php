@@ -33,8 +33,8 @@
 		</div>
 	</form>
 
-	<b class="control-label">{{ isset($message) ? $message : "" }}</b>
 	<br>
+	<b class="control-label">{{ isset($message) ? $message : "" }}</b>
 	<br>
 
 @endsection

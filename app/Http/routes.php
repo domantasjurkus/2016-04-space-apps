@@ -1,16 +1,5 @@
 <?php
 
-/*
-|--------------------------------------------------------------------------
-| Application Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register all of the routes for an application.
-| It is a breeze. Simply tell Lumen the URIs it should respond to
-| and give it the Closure to call when that URI is requested.
-|
-*/
-
 use App\Models\User;
 use App\Models\Testimony;
 
@@ -44,13 +33,13 @@ $app->post('/register', function()  {
     }
 
     /** Check if number is valid by sending SMS */
-    try {
+    /*try {
         sendSMS($number, "Doomsday Buddy registration confirmed!");
     } catch(Exception $e) {
         return view('register', [
             "message" => "That number looks wrong - try again maybe?"
         ]);
-    }
+    }*/
 
     /** Create a user row */
     User::create([
@@ -110,10 +99,22 @@ $app->post('/testimony', function() {
 });
 
 
-/** Test route */
-$app->get('/test', function() use ($app) {
+/** Update existing number with testimonies */
+$app->post('/update', function() {
 
-    sendTestimonies(1);
+    /** Find the ID by phone number */
+    $user = User::query()->where("number", $_POST["number"])->first();
+    if (!$user) return view("register");
+    $id = $user->getKey();
+
+    /** Get all user instances */
+    $users = User::all();
+
+    /** Go to testimony page */
+    return view('testimony', [
+        "users"     => $users,
+        "sender_id" => $id
+    ]);
 
 });
 
@@ -130,7 +131,13 @@ $app->get('/doomsday/{temp}', function($temp) use ($app) {
 
         /** Send SMS */
         $message = "DOOMSDAY! Global temperatures have risen to ".$temp." Celcius. Human extinction imminent.";
-        sendSMS($user->number, $message);
+        try {
+            sendSMS($user->number, $message);
+
+        } catch (Exception $e) {
+
+        }
+
 
         /** Send testimonies from other users */
         sendTestimonies($user->getKey());
@@ -144,16 +151,42 @@ $app->get('/doomsday/{temp}', function($temp) use ($app) {
     return 'Messages sent - may God be with us';
 });
 
+
+/** Test route */
+$app->get('/test', function() use ($app) {
+
+    sendTestimonies(1);
+
+});
+
+
 function sendTestimonies($recipient_id) {
 
+    /** Get the recipient's number */
+    $recipient_number = User::query()->where("id", $recipient_id)->first()->number;
+
     /** Get all testimonies for the doomed recipient */
-    $testimonies = Testimony::query()->where("recipient_id", $recipient_id)->get()->count();
+    $testimonies = Testimony::query()->where("recipient_id", $recipient_id)->get();
 
     foreach ($testimonies as $testimony) {
+
+        /** Get the sender's name and message */
+        $sender = User::query()->where("id", $testimony->sender_id)->first();
+        $sender_name = $sender->name;
+        $message = "Final message from ".$sender_name. ": ".$testimony["message"];
+
+        /** Send SMS */
+        try {
+            sendSMS($recipient_number, $message);
+
+        } catch(Exception $e) {
+
+        }
 
     }
 
 }
+
 
 function sendSMS($number, $message) {
 

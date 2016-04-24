@@ -13,7 +13,9 @@
 
         <div class="panel-body" style="margin: auto; max-width: 600px;">
 
-            <img src="./logo.png">
+            <a href="<?php echo "http://".$_SERVER['HTTP_HOST']."/" ?>">
+            	<img src="./logo.png">
+            </a>
             <h2>Doomsday Buddy Registration</h2>
             <hr>
 
