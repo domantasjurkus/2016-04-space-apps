@@ -104,7 +104,7 @@ $app->post('/update', function() {
 
     /** Find the ID by phone number */
     $user = User::query()->where("number", $_POST["number"])->first();
-    if (!$user) return view("register");
+    if (!$user) return view("register", ["message"=>"Uh oh, couldn't find that number, you sure you are registered?"]);
     $id = $user->getKey();
 
     /** Get all user instances */

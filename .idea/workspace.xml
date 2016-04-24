@@ -28,8 +28,8 @@
       <file leaf-file-name="routes.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-31.285715" vertical-offset="169" max-vertical-offset="1938">
-              <caret line="115" column="18" selection-start-line="115" selection-start-column="9" selection-end-line="115" selection-end-column="18" />
+            <state vertical-scroll-proportion="-9.285714" vertical-offset="1374" max-vertical-offset="2090">
+              <caret line="151" column="3" selection-start-line="151" selection-start-column="3" selection-end-line="151" selection-end-column="3" />
               <folding>
                 <element signature="e#83#134#1#PHP" expanded="false" />
                 <element signature="e#293#1425#1#PHP" expanded="false" />
@@ -44,36 +44,25 @@
                 <element signature="e#1488#1723#1#PHP" expanded="false" />
                 <element signature="e#2111#2266#0#PHP" expanded="false" />
                 <element signature="e#2129#2265#0#PHP" expanded="false" />
-                <element signature="e#3188#3284#0#PHP" expanded="false" />
-                <element signature="e#3251#3284#0#PHP" expanded="false" />
-                <element signature="e#3573#3624#1#PHP" expanded="false" />
+                <element signature="e#3267#3363#0#PHP" expanded="false" />
+                <element signature="e#3330#3363#0#PHP" expanded="false" />
+                <element signature="e#3652#3703#1#PHP" expanded="false" />
                 <element signature="n#sendTestimonies#0;n#!!top" expanded="false" />
-                <element signature="e#3940#4367#0#PHP" expanded="false" />
-                <element signature="e#4261#4360#0#PHP" expanded="false" />
-                <element signature="e#4328#4360#0#PHP" expanded="false" />
-                <element signature="n#sendSMS#0;n#!!top" expanded="false" />
-                <element signature="e#4590#4726#0#PHP" expanded="false" />
-                <element signature="e#4625#4725#1#PHP" expanded="false" />
+                <element signature="e#4019#4446#0#PHP" expanded="false" />
+                <element signature="e#4340#4439#0#PHP" expanded="false" />
+                <element signature="e#4407#4439#0#PHP" expanded="false" />
+                <element signature="e#4669#4805#0#PHP" expanded="false" />
+                <element signature="e#4704#4804#1#PHP" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DatabaseSeeder.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DatabaseSeeder.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/database/seeds/DatabaseSeeder.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.424581" vertical-offset="57" max-vertical-offset="1216">
-              <caret line="21" column="45" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="58" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="114">
-              <caret line="0" column="22" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
+            <state vertical-scroll-proportion="-27.821428" vertical-offset="0" max-vertical-offset="1216">
+              <caret line="43" column="30" selection-start-line="43" selection-start-column="30" selection-end-line="43" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -104,6 +93,16 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-15.607142" vertical-offset="0" max-vertical-offset="665">
               <caret line="23" column="14" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.076612905" vertical-offset="0" max-vertical-offset="744">
+              <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -141,12 +140,12 @@
         <option value="$PROJECT_DIR$/app/Models/User.php" />
         <option value="$PROJECT_DIR$/app/Models/Testimony.php" />
         <option value="$PROJECT_DIR$/test.txt" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/resources/views/testimony.blade.php" />
-        <option value="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" />
-        <option value="$PROJECT_DIR$/app/Http/routes.php" />
         <option value="$PROJECT_DIR$/resources/views/register.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/base.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/routes.php" />
+        <option value="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -493,16 +492,15 @@
             <element signature="e#1488#1723#1#PHP" expanded="false" />
             <element signature="e#2111#2266#0#PHP" expanded="false" />
             <element signature="e#2129#2265#0#PHP" expanded="false" />
-            <element signature="e#3188#3284#0#PHP" expanded="false" />
-            <element signature="e#3251#3284#0#PHP" expanded="false" />
-            <element signature="e#3573#3624#1#PHP" expanded="false" />
+            <element signature="e#3267#3363#0#PHP" expanded="false" />
+            <element signature="e#3330#3363#0#PHP" expanded="false" />
+            <element signature="e#3652#3703#1#PHP" expanded="false" />
             <element signature="n#sendTestimonies#0;n#!!top" expanded="false" />
-            <element signature="e#3940#4367#0#PHP" expanded="false" />
-            <element signature="e#4261#4360#0#PHP" expanded="false" />
-            <element signature="e#4328#4360#0#PHP" expanded="false" />
-            <element signature="n#sendSMS#0;n#!!top" expanded="false" />
-            <element signature="e#4590#4726#0#PHP" expanded="false" />
-            <element signature="e#4625#4725#1#PHP" expanded="false" />
+            <element signature="e#4019#4446#0#PHP" expanded="false" />
+            <element signature="e#4340#4439#0#PHP" expanded="false" />
+            <element signature="e#4407#4439#0#PHP" expanded="false" />
+            <element signature="e#4669#4805#0#PHP" expanded="false" />
+            <element signature="e#4704#4804#1#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -572,16 +570,15 @@
             <element signature="e#1488#1723#1#PHP" expanded="false" />
             <element signature="e#2111#2266#0#PHP" expanded="false" />
             <element signature="e#2129#2265#0#PHP" expanded="false" />
-            <element signature="e#3188#3284#0#PHP" expanded="false" />
-            <element signature="e#3251#3284#0#PHP" expanded="false" />
-            <element signature="e#3573#3624#1#PHP" expanded="false" />
+            <element signature="e#3267#3363#0#PHP" expanded="false" />
+            <element signature="e#3330#3363#0#PHP" expanded="false" />
+            <element signature="e#3652#3703#1#PHP" expanded="false" />
             <element signature="n#sendTestimonies#0;n#!!top" expanded="false" />
-            <element signature="e#3940#4367#0#PHP" expanded="false" />
-            <element signature="e#4261#4360#0#PHP" expanded="false" />
-            <element signature="e#4328#4360#0#PHP" expanded="false" />
-            <element signature="n#sendSMS#0;n#!!top" expanded="false" />
-            <element signature="e#4590#4726#0#PHP" expanded="false" />
-            <element signature="e#4625#4725#1#PHP" expanded="false" />
+            <element signature="e#4019#4446#0#PHP" expanded="false" />
+            <element signature="e#4340#4439#0#PHP" expanded="false" />
+            <element signature="e#4407#4439#0#PHP" expanded="false" />
+            <element signature="e#4669#4805#0#PHP" expanded="false" />
+            <element signature="e#4704#4804#1#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -726,54 +723,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="114">
-          <caret line="0" column="22" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="152">
-          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-31.285715" vertical-offset="169" max-vertical-offset="1938">
-          <caret line="115" column="18" selection-start-line="115" selection-start-column="9" selection-end-line="115" selection-end-column="18" />
-          <folding>
-            <element signature="e#83#134#1#PHP" expanded="false" />
-            <element signature="e#293#1425#1#PHP" expanded="false" />
-            <element signature="e#515#660#0#PHP" expanded="false" />
-            <element signature="e#546#653#0#PHP" expanded="false" />
-            <element signature="e#562#652#0#PHP" expanded="false" />
-            <element signature="e#717#944#0#PHP" expanded="false" />
-            <element signature="e#979#1087#0#PHP" expanded="false" />
-            <element signature="e#992#1086#1#PHP" expanded="false" />
-            <element signature="e#1330#1421#0#PHP" expanded="false" />
-            <element signature="e#1348#1420#0#PHP" expanded="false" />
-            <element signature="e#1488#1723#1#PHP" expanded="false" />
-            <element signature="e#2111#2266#0#PHP" expanded="false" />
-            <element signature="e#2129#2265#0#PHP" expanded="false" />
-            <element signature="e#3188#3284#0#PHP" expanded="false" />
-            <element signature="e#3251#3284#0#PHP" expanded="false" />
-            <element signature="e#3573#3624#1#PHP" expanded="false" />
-            <element signature="n#sendTestimonies#0;n#!!top" expanded="false" />
-            <element signature="e#3940#4367#0#PHP" expanded="false" />
-            <element signature="e#4261#4360#0#PHP" expanded="false" />
-            <element signature="e#4328#4360#0#PHP" expanded="false" />
-            <element signature="n#sendSMS#0;n#!!top" expanded="false" />
-            <element signature="e#4590#4726#0#PHP" expanded="false" />
-            <element signature="e#4625#4725#1#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/testimony.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.107143" vertical-offset="0" max-vertical-offset="855">
@@ -790,10 +739,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layouts/base.blade.php">
+    <entry file="file://$PROJECT_DIR$/test.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.607142" vertical-offset="0" max-vertical-offset="665">
-          <caret line="23" column="14" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="114">
+          <caret line="0" column="22" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
           <folding />
         </state>
       </provider>
@@ -803,8 +752,55 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.424581" vertical-offset="57" max-vertical-offset="1216">
-          <caret line="21" column="45" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="58" />
+        <state vertical-scroll-proportion="-27.821428" vertical-offset="0" max-vertical-offset="1216">
+          <caret line="43" column="30" selection-start-line="43" selection-start-column="30" selection-end-line="43" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.285714" vertical-offset="1374" max-vertical-offset="2090">
+          <caret line="151" column="3" selection-start-line="151" selection-start-column="3" selection-end-line="151" selection-end-column="3" />
+          <folding>
+            <element signature="e#83#134#1#PHP" expanded="false" />
+            <element signature="e#293#1425#1#PHP" expanded="false" />
+            <element signature="e#515#660#0#PHP" expanded="false" />
+            <element signature="e#546#653#0#PHP" expanded="false" />
+            <element signature="e#562#652#0#PHP" expanded="false" />
+            <element signature="e#717#944#0#PHP" expanded="false" />
+            <element signature="e#979#1087#0#PHP" expanded="false" />
+            <element signature="e#992#1086#1#PHP" expanded="false" />
+            <element signature="e#1330#1421#0#PHP" expanded="false" />
+            <element signature="e#1348#1420#0#PHP" expanded="false" />
+            <element signature="e#1488#1723#1#PHP" expanded="false" />
+            <element signature="e#2111#2266#0#PHP" expanded="false" />
+            <element signature="e#2129#2265#0#PHP" expanded="false" />
+            <element signature="e#3267#3363#0#PHP" expanded="false" />
+            <element signature="e#3330#3363#0#PHP" expanded="false" />
+            <element signature="e#3652#3703#1#PHP" expanded="false" />
+            <element signature="n#sendTestimonies#0;n#!!top" expanded="false" />
+            <element signature="e#4019#4446#0#PHP" expanded="false" />
+            <element signature="e#4340#4439#0#PHP" expanded="false" />
+            <element signature="e#4407#4439#0#PHP" expanded="false" />
+            <element signature="e#4669#4805#0#PHP" expanded="false" />
+            <element signature="e#4704#4804#1#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/base.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.607142" vertical-offset="0" max-vertical-offset="665">
+          <caret line="23" column="14" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.076612905" vertical-offset="0" max-vertical-offset="744">
+          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
           <folding />
         </state>
       </provider>
